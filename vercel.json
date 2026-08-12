@@ -1,0 +1,3 @@
+{
+  "buildCommand": "hugo --gc --minify -b https://$VERCEL_URL"
+}

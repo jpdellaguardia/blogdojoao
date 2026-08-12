@@ -1,8 +1,7 @@
-baseURL = ""
+baseURL = "https://blogdojoao-nu.vercel.app/"
 languageCode = "pt-br"
 title = "Blog do João"
 theme = "github-style"
-relativeURLs = true
 
 [params]
 author = "João Pedro Della Guardia"
