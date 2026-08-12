@@ -1,4 +1,4 @@
 {
-  "buildCommand": "hugo --gc --minify -b https://$VERCEL_URL",
+  "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public"
 }
