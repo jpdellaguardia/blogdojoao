@@ -1,3 +1,4 @@
+# 1. Reescreve o arquivo hugo.toml
 cat << 'EOF' > ~/projetos/blogdojoao/hugo.toml
 baseURL = "https://blogdojoao-one.vercel.app/"
 languageCode = "pt-br"
@@ -37,3 +38,7 @@ lastmod = ["lastmod", ":fileModTime", ":default"]
 [markup.goldmark.renderer]
   unsafe = true
 EOF
+
+# 2. Sanitiza o arquivo removendo BOM e espaços não-quebráveis (\u00a0)
+sed -i 's/\xc2\xa0/ /g' ~/projetos/blogdojoao/hugo.toml
+sed -i '1s/^\xef\xbb\xbf//' ~/projetos/blogdojoao/hugo.toml
