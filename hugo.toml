@@ -3,6 +3,7 @@ baseURL = "https://blogdojoao-one.vercel.app/"
 languageCode = "pt-br"
 title = "Blog do João"
 theme = "github-style"
+relativeURLs = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
