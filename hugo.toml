@@ -1,9 +1,7 @@
-baseURL = "https://blogdojoao-one.vercel.app/"
+baseURL = "/"
 languageCode = "pt-br"
 title = "Blog do João"
 theme = "github-style"
-relativeURLs = true
-canonifyURLs = false
 
 [params]
 author = "João Pedro Della Guardia"
@@ -18,9 +16,9 @@ keywords = "blog, bioinformática"
 rss = true
 lastmod = true
 userStatusEmoji = "🧬"
-favicon = "/images/github.png"
+favicon = "/images/github-mark.png"
 avatar = "https://github.com/jpdellaguardia.png"
-headerIcon = "/images/GitHub-Mark-Light-32px.png"
+headerIcon = "/images/github-mark-white.png"
 location = "Berlim, Alemanha"
 enableGitalk = false
 
