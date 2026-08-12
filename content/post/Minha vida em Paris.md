@@ -5,7 +5,7 @@ created:
 aliases:
   - Blog Post Code
 tags:
-  - Blog/
+  - Blog
 ---
 ![Pasted image 20260812155043.png](/images/Pasted%20image%2020260812155043.png)
 # ❓ Information

@@ -8,7 +8,7 @@ created:
 aliases:
   - Blog Post Code
 tags:
-  - Blog/
+  - Blog
 ---
 
 
