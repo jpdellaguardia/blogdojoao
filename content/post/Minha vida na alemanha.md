@@ -12,7 +12,7 @@ tags:
 ---
 
 
-![[Pasted image 20260812155103.png]]
+![Pasted image 20260812155103.png](/images/Pasted%20image%2020260812155103.png)
 # ❓ Information
 Type:: 
 Writer:: 
