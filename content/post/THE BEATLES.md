@@ -1,18 +1,13 @@
 ---
-title: Minha Vida na Alemanha
-date: 2026-08-12
-draft: false
-slug: inovacao-na-bioinformatica
+title: THE BEATLES
 created:
   - "{{date}} {{time}}"
 aliases:
   - Blog Post Code
 tags:
-  - Blog
+  - Blog/
 ---
-
-
-![[Pasted image 20260812155103.png]]
+![[Pasted image 20260812185604.png]]
 # ❓ Information
 Type:: 
 Writer:: 
@@ -47,9 +42,3 @@ A blog post is like a conversation, you need to explain the information however 
 - [ ] Revise the complete text for typos and any rephrasing that need to be made 
 - [ ] Publish or schedule the post
 - [ ] Promote
-
-
-
-
-
-
