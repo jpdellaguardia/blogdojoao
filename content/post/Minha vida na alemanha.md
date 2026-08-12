@@ -10,7 +10,9 @@ aliases:
 tags:
   - Blog/
 ---
-![[Pasted image 20260812143520.png]]
+
+
+![[Pasted image 20260812155103.png]]
 # ❓ Information
 Type:: 
 Writer:: 
@@ -45,3 +47,9 @@ A blog post is like a conversation, you need to explain the information however 
 - [ ] Revise the complete text for typos and any rephrasing that need to be made 
 - [ ] Publish or schedule the post
 - [ ] Promote
+
+
+
+
+
+
