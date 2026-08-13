@@ -21,7 +21,7 @@ avatar = "https://github.com/jpdellaguardia.png"
 headerIcon = "/images/github-mark-white.png"
 location = "Berlim, Alemanha"
 enableGitalk = false
-
+enableViewport = true
 [permalinks]
 post = "/post/:slug/"
 
