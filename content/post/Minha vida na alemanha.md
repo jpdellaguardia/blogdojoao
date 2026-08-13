@@ -12,7 +12,7 @@ tags:
 ---
 
 
-![[Pasted image 20260812155103.png|454]]
+![](/images/pasted-image-20260812155103.png)
 <!--more-->
 # ❓ Information
 Type:: 

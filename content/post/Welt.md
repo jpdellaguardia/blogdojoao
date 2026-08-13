@@ -7,7 +7,7 @@ aliases:
 tags:
   - Blog/
 ---
-![[Pasted image 20260812191254.png|334x445]]
+![](/images/pasted-image-20260812191254.png)
 <!--more-->
 # ❓ Information
 Type:: 
