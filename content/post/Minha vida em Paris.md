@@ -7,7 +7,7 @@ aliases:
 tags:
   - Blog
 ---
-
+![](/images/minha-vida-em-paris-1786635873842.webp)
 <!--more-->
 # ❓ Information
 Type:: 

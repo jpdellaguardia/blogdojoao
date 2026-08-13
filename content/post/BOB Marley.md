@@ -3,7 +3,7 @@ title: Bob Marley
 date: 2026-08-12
 draft: false
 ---
-![](/images/pasted-image-20260813123151.png)
+![](/images/bob-marley-1786635837015.webp)
 <!--more-->
 # Bob Marley
 
