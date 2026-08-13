@@ -11,7 +11,7 @@ tags:
   - Fofinhas
 ---
 
-# Informação
+# Animal Fofinho Visto por toda cidade
 Type:: Curiosidade
 Writer:: João Pedro Della Guardia
 Subject:: Raposas de Berlin
@@ -23,8 +23,8 @@ Subject:: Raposas de Berlin
 ##  Como Vivem as Raposas em Berlin
 
 
-
-# Blog post ->  
+<details>
+<summary># Blog post<summary> 
 
 	Essa raposinha linda tem o nome de Bob Marley todo dia vejo ela, esses cachorrinhos estão espalhadas por roda cidade, onde tem mato elas estão por lá. As Raposas-Vermelhas ou (_Vulpes vulpes_) como são conhecidas, possuem uma história muito interessante, o seu surgimento em Berlin está associado diretamente à guerra que devastou a cidade. As raposas começaram a se fixar nos escombros deixados pela guerra, buscando abrigo e restos de comida. 
 	O muro de Berlin por incrível que pareça também afetou o comportamento reprodutivo desse bichinho, as chamadas "Faixas da Morte" (Todesstreifen) que durou por 20 anos, significava morte apenas para os humanos e não para as raposas, essas faixas consistiam em uma zona neutra que se estendia por cerca de 156 quilômetros ao redor e através de Berlin. Ela continha barreiras duplas, fossos, areia, cercas elétricas, torres de vigia e patrulhas constantes, nessa região, não só as raposinhas, como outros animais como os coelhos, ratos, insetos etc encontraram o ambiênte perfeito para se reproduzir, fomentando assim o crescimento populacional considerável das raposas, elas cavavam pequenas passagem por de baixp das cercas e arames, eram ignoradas pelos soldados, que muitas vezes alimentavam os animais, elas eram um lembrete surreal da natureza se sobrepondo ao conflito ideológico.
