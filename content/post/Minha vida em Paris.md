@@ -7,7 +7,7 @@ aliases:
 tags:
   - Blog
 ---
-![](/images/minha-vida-em-paris-1786635873842.webp)
+<img src="/images/minha-vida-em-paris-1786635873842.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 <!--more-->
 # ❓ Information
 Type:: 
