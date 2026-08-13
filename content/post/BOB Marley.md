@@ -6,7 +6,7 @@ draft: false
 
 # Bob Marley
 
-Bob Marley foi um músico e compositor jamaicano, famoso por popularizar o reggae em todo o mundo.
+Essa raposinha linda tem o nome de Bob Marley todo dia vejo ela
 ![](/images/pasted-image-20260812155117.png)
 ## Principais fatos:
 * **Nome completo:** Robert Nesta Marley.
