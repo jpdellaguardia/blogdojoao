@@ -1,7 +1,8 @@
-baseURL = "https://blogdojoao-nu.vercel.app/"
+baseURL = "/"
 languageCode = "pt-br"
 title = "Blog do João"
 theme = "github-style"
+summaryLength = 30
 
 [params]
 author = "João Pedro Della Guardia"
@@ -22,6 +23,7 @@ headerIcon = "/images/github-mark-white.png"
 location = "Berlim, Alemanha"
 enableGitalk = false
 enableViewport = true
+
 [permalinks]
 post = "/post/:slug/"
 
@@ -29,6 +31,12 @@ post = "/post/:slug/"
 lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+  # --- ESTA É A NOVA SEÇÃO NECESSÁRIA ---
+  [markup.goldmark.parser.attribute]
+    block = true
+    title = true
