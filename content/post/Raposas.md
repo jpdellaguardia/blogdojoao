@@ -1,15 +1,4 @@
----
-title: Raposas de Berlin são os cachorros do Brasil!
-date: 2026-08-12
-draft: false
-created:
-aliases:
-tags:
-  - Blog
-  - Raposa
-  - Berlin
-  - Fofinhas
----
+
 ---
 title: "Animal Fofinho Visto por Toda Cidade"
 date: 2026-08-13T19:26:00+02:00
@@ -19,10 +8,13 @@ type: "Curiosidade"
 subject: "Raposas de Berlin"
 categories: ["Curiosidades"]
 tags: ["berlin", "raposas", "fauna-urbana", "historia"]
+
+---
+
 description: "Como vivem as raposas em Berlin, sua relação com o Muro de Berlin e a rotina do Bob Marley na cidade."
 ---
 
-![Status](https://img.shields.io/badge/Writer-Jo%C3%A3o%20Pedro%20Della%20Guardia-0969da?style=flat-square)
+![Status|194x20](https://img.shields.io/badge/Writer-Jo%C3%A3o%20Pedro%20Della%20Guardia-0969da?style=flat-square)
 ![Type](https://img.shields.io/badge/Type-Curiosidade-2ea44f?style=flat-square)
 ![Subject](https://img.shields.io/badge/Subject-Raposas%20de%20Berlin-8a2be2?style=flat-square)
 
