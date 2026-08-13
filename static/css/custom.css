@@ -1,11 +1,9 @@
-/* Força todas as imagens no blog a respeitarem a largura do container */
-img, 
-.markdown-body img, 
-.post-entry img, 
-.post-summary img, 
-article img {
+/* Limita o tamanho de qualquer imagem no blog (listagens, previews e posts) */
+img {
   max-width: 100% !important;
   height: auto !important;
+  max-height: 450px !important;
+  object-fit: contain !important;
   display: block !important;
   margin: 1rem auto !important;
   border-radius: 6px !important;
