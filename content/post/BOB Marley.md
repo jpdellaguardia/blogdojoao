@@ -7,7 +7,7 @@ draft: false
 # Bob Marley
 
 Essa raposinha linda tem o nome de Bob Marley todo dia vejo ela
-![[Pasted image 20260812155117.png|290x386]]
+![](/images/pasted-image-20260812155117.png|290x386)
 ## Principais fatos:
 * **Nome completo:** Robert Nesta Marley.
 * **Gênero musical:** Reggae.
