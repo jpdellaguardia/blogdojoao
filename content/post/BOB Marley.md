@@ -3,11 +3,12 @@ title: "Bob Marley"
 date: 2026-08-12
 draft: false
 ---
-
+![](/images/Pasted%20image%2020260813123151.png)
+<!--more-->
 # Bob Marley
 
 Essa raposinha linda tem o nome de Bob Marley todo dia vejo ela
-![[Pasted image 20260812155117.png|290x386]]
+
 ## Principais fatos:
 * **Nome completo:** Robert Nesta Marley.
 * **Gênero musical:** Reggae.
