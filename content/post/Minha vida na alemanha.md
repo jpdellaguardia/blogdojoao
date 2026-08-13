@@ -29,7 +29,8 @@ Price::
 
 
 # 🔰 Blog post ->  
-A blog post is like a conversation, you need to explain the information however you must only speak about subjects you understand and like. 
+O seu habitat Berlin é uma cidade muito peculiar, no coração verde da cidade existe uma grande zona de parques com vegetação nativa preservada por onde trafegam milhares de pessoas diariamente com suas bicicletas, patinetes, caminhando, essa região é chamada de Großer Tiergarten. Essa região é muito querida pelos berlinenses, por fins de comparação para os Brasileiros compreenderem seria como o Parque do Flamengo no Rio de Janeiro, ou o Parque do Cocó em Fortaleza (que é minúsculo comparado com o Tiergarten) 
+
 ## 1️⃣ Intro 
 * A promise statement 
 * A preview of what's to come 
