@@ -14,11 +14,8 @@ tags:
 Type:: 
 Writer:: Joao Pedro
 Tags:: 
-Subject:: 
-Started Reading on:: 
-Completed on:: 
-Perched on:: 
-Price:: 
+Subject::  
+<img src="/images/grosser-tiergarten-1786731792088.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 
 ---
 #  Relevant data
