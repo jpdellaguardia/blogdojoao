@@ -42,7 +42,7 @@ Prefira escrever de maneira natural, como se estivesse contando para alguém o q
 
 Você pode inserir imagens normalmente:
 
-<img src="/images/exemplo.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+<img src="/images/exemplo.webp" alt="Descrição da imagem" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 
 ---
 

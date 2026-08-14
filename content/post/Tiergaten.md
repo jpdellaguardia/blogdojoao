@@ -42,7 +42,7 @@ Minha experiência como Brasileiro descobrindo pela primeira vez o que é famoso
 	Todo momento em que passei por ele, pude assimilar mais um pouco sobre a sua natureza, fico me imaginando como seria a minha relação com esse parque caso estivesse morando aqui com a minha família por anos à frente, as pessoas parecem realmente se importar muito com a natureza aqui na Alemanha, há uma conexão muito profunda com os animais, árvores, biodiversidade, além da grande consciência ecolôgica que se reflete em medidas severas para proteger a vegetação restante, cortar uma árvore aqui configura um verdadeiro crime e o infrator pode pegar vários anos de cadeia por isso, todos são vigilantes e agentes conservadores da floresta, pois um bem público deve ser cudiado por todos, aqui você é tomado por esse senso de responsabilidade compartilhada, ou seja, jogar lixo na rua é algo impensável! Há lixeiras por todos os lados, não tem o menor sentido de você cometer um ultrage como esse.
 
 
-![](../images/flores%202.webm)
+<video src="/images/flores-2.webm" controls style="max-width: 100% !important; height: auto !important; max-height: 500px !important; display: block !important; margin: 1.5rem auto !important; border-radius: 8px !important;"></video>
 
 *(Jardim Lindo localizado em algum lugar no parque kkkk, cheio de idosos, criaças e pessoas tomando sol nesse verão Europeu)*
 
@@ -50,6 +50,6 @@ Minha experiência como Brasileiro descobrindo pela primeira vez o que é famoso
 
 ## Por dentro do parque
 
-![](../images/parque35-49.webm)
+<video src="/images/parque35-49.webm" controls style="max-width: 100% !important; height: auto !important; max-height: 500px !important; display: block !important; margin: 1.5rem auto !important; border-radius: 8px !important;"></video>
 *Um trecho do caminho por onde passo ao atravessár o parque*
 
