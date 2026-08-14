@@ -1,7 +1,7 @@
 ---
 title: Großer Tiergarten
 date: 2026-08-14
-draft: true
+draft: false
 subject: Zona Verde de Berlin
 tags:
   - berlin
