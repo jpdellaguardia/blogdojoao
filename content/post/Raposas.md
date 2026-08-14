@@ -1,7 +1,7 @@
 
 ---
 title: "Animal Fofinho Visto por Toda Cidade"
-date: 2026-08-13T19:26:00+02:00
+{{date}} : 2
 draft: false
 author: "João Pedro Della Guardia"
 type: "Curiosidade"
@@ -17,7 +17,10 @@ Como vivem as raposas em Berlin, sua relação com o Muro de Berlin e a rotina d
 ![Status|194x20](https://img.shields.io/badge/Writer-Jo%C3%A3o%20Pedro%20Della%20Guardia-0969da?style=flat-square)
 ![Type](https://img.shields.io/badge/Type-Curiosidade-2ea44f?style=flat-square)
 ![Subject](https://img.shields.io/badge/Subject-Raposas%20de%20Berlin-8a2be2?style=flat-square)
-<img src="/images/raposas-1786642475262.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" /><!--more-->
+
+<img src="/images/raposas-1786642475262.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+
+<!--more-->
 # Como Vivem as Raposas em Berlin
 
 Essa raposinha linda tem o nome de **Bob Marley**; todo dia vejo ela! Esses "cachorrinhos" estão espalhados por toda a cidade: onde tem mato, elas estão por lá. 
