@@ -1,7 +1,7 @@
 
 ---
 title: "Animal Fofinho Visto por Toda Cidade"
-{{date}} : 2
+date : 13.08.2026
 draft: false
 author: "João Pedro Della Guardia"
 type: "Curiosidade"
