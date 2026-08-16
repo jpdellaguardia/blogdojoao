@@ -1,11 +1,6 @@
 
 ---
 title: "Animal Fofinho Visto por Toda Cidade"
-date: 2026-08-14
-draft: false
-author: "João Pedro Della Guardia"
-type: "Curiosidade"
----
 subject: "Raposas de Berlin"
 categories: ["Curiosidades"]
 tags: ["berlin", "raposas", "fauna-urbana", "historia"]
