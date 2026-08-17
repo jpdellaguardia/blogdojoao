@@ -8,12 +8,14 @@ tags:
   - Bioinformatica
 ---
 
+<span class="texto-pequeno">{{SELECTION}}</span>
 ![Type|126x20](https://img.shields.io/badge/Type-Bioinformatica-2ea44f?style=flat-square)
 ![Subject](https://img.shields.io/badge/Subject-Filogenia%20e%20Evolução-8a2be2?style=flat-square)
 <img src="/images/molecular-phylogenyand-evolution-1786991207974.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 
 _Nothing in biology makes sense except in the light of evolution. —Theodosius Dobzhansky (1973)_
 
+Disclaimer: Esse Blog foi escrito a partir do livro bioinformatcs and functional genomics e existem trechos e imagens que foram copiadas diretamente do livro
 <!--more-->
 # ✅ Checklist 
 - [ ] describe the molecular clock hypothesis and explain its significance; 
@@ -47,16 +49,14 @@ Em outra postagem irei mostrar como podemos aplicar uma variedade de abordagens 
 
 <img src="/images/molecular-phylogenyand-evolution-1786994823567.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 
-Figure 7.1 In the 1960s, several groups performed pioneering studies of globin phylogeny. This tree is modified from Dayhoff et al. (1972) who used maximum parsimony analysis to infer the relationships and history of 13 globins. The observed percent difference between sequences was corrected using the data on PAM matrices in Table 3.3. Arrow 1 indicates a node corresponding to the last common ancestor of the group of vertebrate globins, while arrow 2 indicates the ancestor of the insect and vertebrate globins. Source: Dayhoff et al. (1972). 
+<small> Figura 1. Na década de 1960, vários grupos realizaram estudos pioneiros sobre a filogenia das globinas. Esta árvore foi modificada a partir de Dayhoff et al. (1972), que utilizaram a análise de máxima parcimônia para inferir as relações e a história de 13 globinas. A diferença percentual observada entre as sequências foi corrigida utilizando-se os dados das matrizes PAM apresentados na Tabela 3.3. A seta 1 indica um nó correspondente ao último ancestral comum do grupo das globinas de vertebrados, enquanto a seta 2 indica o ancestral das globinas de insetos e vertebrados. Fonte: Dayhoff et al. (1972) </small>
 
 Historicamente, as globinas estão entre as familias de proteínas mais importantes para a compreensão da evolução bioquimica e molecular, desde a identificação da hemoglobina em 1830, da mioglobina em 1860 até a sua cristalização no século 19. As globinas estiveram entre as primeiras proteínas a serem sequenciadas e analisadas por meio de cristalografia de raios X. 
 Dando sequência a trabalhos anteriores de Ingram (1961) e outros para determinar as sequências de proteínas globinas, Eck e Dayhoff (1966) utilizaram análise de parcimônia (definida em “Inferência Filogenética: Parcimônia Máxima”, abaixo) para gerar árvores da família das globinas.
 A figura abaixo demonstra uma sequência de eventos no qual os genes das Globina foram duplicados e de especiação
 
 
-<img src="/images/molecular-phylogenyand-evolution-1786994780823.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />Figure 7.2 Dayhoff et al. (1972) summarized the relationship of the globin subfamilies in the con-
-text of evolutionary time. The dates of speciation events were inferred from fossil-based studies.
-Source: Dayhoff et al. (1972). Reproduced with permission from National Biomedical Research Foundation.
+<img src="/images/molecular-phylogenyand-evolution-1786994780823.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />Figure 7.2 Dayhoff <small> Figura 2. Dayhoff et al. (1972) resumiram a relação entre as subfamílias de globinas no contexto do tempo evolutivo. As datas dos eventos de especiação foram inferidas a partir de estudos baseados em fósseis. </small>
 
 
 Estos acerca da insulina no começo dos anos 1950s, foram primordias para a compreensão da visão molecular. 
@@ -66,8 +66,9 @@ A insulina é uma pequena proteína secretada por células das ilhotas pancreát
 
 Durante a década de 1960, um grande volume de dados sobre sequências de aminoácidos já havia sido acumulado a partir de diferentes proteínas. Observou-se que proteínas distintas apresentavam diferentes taxas de substituições de aminoácidos ao longo da evolução: enquanto algumas, como os citocromos c, evoluíam mais lentamente, outras acumulavam um número maior de substituições. A partir dessas observações, Emil Zuckerkandl e Linus Pauling (1962), assim como Emanuel Margoliash (1963), propuseram o conceito de relógio molecular. Essa hipótese estabelece que, para um determinado gene ou proteína, a taxa de evolução molecular é aproximadamente constante ao longo do tempo. Em um estudo pioneiro, Zuckerkandl e Pauling compararam as sequências de globinas humanas e observaram diferentes números de substituições de aminoácidos entre as cadeias α, β, γ e δ. Ao comparar as globinas humanas com as de gorilas, foram identificadas apenas duas diferenças na globina α e uma na globina β. Considerando evidências fósseis que indicavam que humanos e gorilas divergiram de um ancestral comum há aproximadamente 11 milhões de anos, essa divergência pôde ser utilizada como ponto de calibração para estimar o tempo de eventos evolutivos anteriores, incluindo duplicações gênicas que deram origem às diferentes famílias de globinas.
 
-<img src="/images/molecular-phylogenyand-evolution-1786994404340.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />Figura 4.  Uma comparação entre o número de alterações de aminoácidos que ocorrem nas proteínas (eixo y) e o tempo decorrido desde a divergência das espécies (eixo x) revela que diferentes famílias de proteínas evoluem a taxas distintas. Algumas proteínas, como os citocromos c de diversos organismos, evoluem muito lentamente; outras, como a hemoglobina, evoluem a uma taxa intermediária; e proteínas como os fibrinopeptídeos sofrem substituições rapidamente. Esse comportamento é descrito pela hipótese do relógio molecular, proposta por
-Zuckerkandl e Pauling (1962), Margoliash (1963) e outros na década de 1960. O tempo de divergência de vários organismos (setas) é estimado principalmente com base em evidências fósseis. Abreviação: MY, milhões de anos atrás. Adaptado de Dickerson (1971) 
+<img src="/images/molecular-phylogenyand-evolution-1786994404340.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+<small> Figura 3. Uma comparação entre o número de alterações de aminoácidos que ocorrem nas proteínas (eixo y) e o tempo decorrido desde a divergência das espécies (eixo x) revela que diferentes famílias de proteínas evoluem a taxas distintas. Algumas proteínas, como os citocromos c de diversos organismos, evoluem muito lentamente; outras, como a hemoglobina, evoluem a uma taxa intermediária; e proteínas como os fibrinopeptídeos sofrem substituições rapidamente. Esse comportamento é descrito pela hipótese do relógio molecular, proposta por Zuckerkandl e Pauling (1962), Margoliash (1963) e outros na década de 1960. O tempo de
+divergência de vários organismos (setas) é estimado principalmente com base em evidências fósseis. Abreviação: MY, milhões de anos no passado. </small>
 
 Um estudo fundamental sobre a existência do relógio molecular foi realizado por Richard Dickerson em 1971 (Fig. 7.5). Ele analisou três proteínas com grande quantidade de dados de sequência disponíveis: citocromos _c_, hemoglobinas e fibrinopeptídeos. Para cada uma, Dickerson traçou a relação entre o número de diferenças de aminoácidos entre dois organismos e o tempo de divergência evolutiva estimado por registros paleontológicos. Contudo, ao comparar sequências, tornou-se evidente a necessidade de um modelo estatístico para descrever o processo de substituição, uma vez que mutações múltiplas ou reversões podem ocorrer no mesmo sítio. Consequentemente, o número de eventos mutacionais que realmente ocorreram desde a divergência de um ancestral comum pode ser significativamente maior do que a diferença observada nas sequências atuais.
 
@@ -81,11 +82,11 @@ Os resultados deste gráfico (Fig. 4) permitem várias conclusões (Dickerson, 1
 de anos) para que ocorra uma alteração de 1% na sequência de aminoácidos entre duas linhagens	evolutivas divergentes é de 20,0 milhões de anos para o citocromo c, 5,8 milhões de anos para a hemoglobina e 1,1 milhão de anos para os fibrinopeptídeos.
 - As variações observadas na taxa de alteração entre famílias de proteínas refletem restrições  funcionais impostas pela seleção natural.
 
-<img src="/images/molecular-phylogenyand-evolution-1786998603226.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />Table 7.1 Rates of amino acid substitutions per amino acid site per $10^9$  years
-(λ × 109) in various proteins. Dayhoff (1978) expressed these rates as accepted point
-mutations (PAMs) per 100 amino acid residues that are estimated to have occurred in
-100 million years of evolution (compare Box 3.4). The rate of mutation acceptance for
-serum albumin is 19 PAMs per 100 million years.
+<img src="/images/molecular-phylogenyand-evolution-1786998603226.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" /><small>Tabela 1. Taxas de substituição de aminoácidos por sítio de aminoácido a cada $10^9$ anos
+(λ × 10⁹) em várias proteínas. Dayhoff (1978) expressou essas taxas como mutações pontuais
+aceitas (PAMs) por 100 resíduos de aminoácidos que se estima terem ocorrido em
+100 milhões de anos de evolução (compare com o Quadro 3.4). A taxa de aceitação de mutação
+para a albumina sérica é de 19 PAMs a cada 100 milhões de anos. </small>
 
 Isso é análogo à datação de espécimes geológicos utilizando o decaimento radioativo. Um
 exemplo de como o relógio molecular pode ser utilizado é apresentado no Quadro 7.1.
@@ -109,3 +110,36 @@ fossem expressas em estágios de desenvolvimento altamente específicos.
 
 
 # Seleção positiva e negativa
+
+A teoria da evolução de Darwin sugere que, em nível fenotípico, características de uma população
+que favorecem a sobrevivência são selecionadas (seleção positiva), enquanto características que reduzem a aptidão são selecionadas contra (seleção negativa). Por exemplo, em um grupo de girafas que viveu há milhões de anos, aquelas que possuíam pescoços mais longos conseguiam alcançar folhagens mais altas e tiveram mais sucesso reprodutivo do que os membros do grupo com pescoços mais curtos; ou seja, houve seleção positiva para a altura.
+Em nível molecular, a perspectiva evolutiva convencional é que a seleção positiva e a negativa também atuam sobre as sequências de DNA. Um gene que codifica uma enzima pode sofrer duplicação e, posteriormente, alterações nos nucleotídeos podem permitir que um dos genes duplicados codifique uma enzima com uma nova função, a qual se mostra vantajosa e, portanto, é favorecida pela seleção. Acredita-se que esse processo de seleção positiva tenha ocorrido em duas ocasiões na evolução da lisozima, uma enzima que rompe as ligações do peptideoglicano bacteriano e, assim, atua como proteína antimicrobiana em secreções como leite, saliva e lágrimas. Há cerca de 25 milhões de anos, o gene da lisozima duplicou-se e assumiu uma nova função digestiva no estômago do ancestral de cabras, vacas e cervos. O surgimento dessa nova função ocorreu de forma independente em macacos folívoros, como o langur, há cerca de 15 milhões de anos (Jollès et al., 1990). Em cada um desses casos, a taxa de substituição de aminoácidos aumentou devido à seleção positiva, à medida que a lisozima assumia uma nova função.
+Existem várias maneiras de avaliar se ocorreu seleção em dados de sequência.
+Uma abordagem baseia-se no fato de que a porção do DNA que codifica uma proteína pode
+apresentar tanto substituições sinônimas quanto não sinônimas. No caso de uma alteração
+nucleotídica em um determinado códon, uma substituição sinônima não resulta em mudança
+no aminoácido especificado. 
+<img src="/images/molecular-phylogeny-evolution-1787001746703.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+
+<small>Figura 4. Árvores filogenéticas podem ser construídas usando dados de sequências de DNA, RNA ou proteínas. Frequentemente, a sequência de DNA é mais informativa do que a proteína na análise filogenética. Como exemplo, as sequências de beta-globina de três espécies são alinhadas na extremidade 5′ do DNA (com as terminações amino correspondentes das proteínas). Nas regiões não traduzidas 5′ e 3′, onde nenhuma proteína é codificada, normalmente há menos pressão seletiva para manter resíduos de nucleotídeos específicos. (Alguns elementos regulatórios podem ser altamente conservados.) Aqui, apenas uma posição de nucleotídeo varia (seta). Dentro da região codificadora de proteínas, existem resíduos de aminoácidos variantes nas posições 6, 7 e 11 (veja as pontas de seta verdes). Essas variantes podem ser informativas na realização da filogenia. No entanto, há um número ainda maior de alterações de nucleotídeos informativas, restringindo nossa atenção à região codificadora. Existem seis posições com alterações nucleotídicas sinônimas (nucleotídeos sombreados em azul; veja os códons 3, 7 e 10–12) que não resultam na especificação de um aminoácido diferente. Existem também seis posições com alterações não sinônimas que causam uma mudança no aminoácido (pontas de seta e nucleotídeos vermelhos). Para uma delas (códon 6 da sequência canina), uma alteração de um único nucleotídeo, C→G, em relação às sequências de primatas, é responsável pela mudança no aminoácido. Para outros três códons não sinônimos, dois nucleotídeos são alterados em relação às sequências de primatas. As sequências de beta-globina são de humanos (acesso GenBank NM_000518.4) e chimpanzés (Pan troglodytes; XM_5082).</small>
+
+Por exemplo, considere um alinhamento das sequências de DNA
+da beta-globina de humanos, chimpanzés, camundongos e cães em suas extremidades 5′
+(terminais amino das proteínas; Fig. 7.7). No terceiro códon, os nucleotídeos CAT nas
+sequências de humanos e cães codificam uma histidina. A alteração da terceira posição
+para CAC nas sequências de chimpanzés e camundongos não altera o aminoácido codificado.
+Outras alterações sinônimas são evidentes (Fig. 7.7, nucleotídeos em vermelho). Uma
+substituição não sinônima altera o aminoácido especificado. Por exemplo, a beta-globina
+de humanos e chimpanzés possui um códon CCT que especifica uma prolina, mas a
+sequência canina correspondente apresenta uma única substituição que resulta em um
+códon (GCT) especificando uma alanina (Fig. 7.7, códon 6). A comparação das taxas de substituição não sinônima por sítio não sinônimo (d̂N) versus substituição sinônima por sítio sinônimo (d̂S) pode revelar evidências de seleção positiva ou negativa. Se d̂S for maior que d̂N, isso sugere que a sequência de DNA está sob seleção negativa ou purificadora. A seleção negativa limita a mudança em uma sequência de aminoácidos correspondente; isso ocorre quando algum aspecto da estrutura e/ou função de uma proteína é crítico e não tolera substituições. Quando d̂N é maior que d̂S, isso ...sugere que ocorre seleção positiva. Um exemplo de seleção positiva é um gene duplicado que está sob pressão para evoluir novas funções. 
+
+Em 1978, 500 mulheres foram inadvertidamente infectadas pelo vírus da hepatite C (HCV). Stuart Ray e colegas (2005) sequenciaram
+uma porção de 5,2 quilobases do genoma do HCV proveniente do inóculo original e de
+22 mulheres, cerca de 20 anos após a infecção. Eles demonstraram a existência de *loci*
+sob seleção tanto positiva quanto negativa, refletindo a evolução do vírus para
+otimizar sua aptidão (*fitness*) em cada hospedeiro. Por exemplo, substituições de
+aminoácidos em epítopos conhecidos divergiram da sequência consenso em indivíduos
+que possuíam o alelo do antígeno leucocitário humano (HLA) para aquele epítopo,
+indicando um mecanismo de seleção imune. Em outro estudo, Cox *et al.* (2005) estudaram a variação de sequência do HCV antes, durante e após a infecção pelo vírus. Eles demonstraram que as substituições de aminoácidos refletem o escape do reconhecimento por células T; nos indivíduos com infecção persistente, houve pressões seletivas sobre epítopos que resultaram em alterações não sinônimas. Os resultados de Ray et al. (2005) e Cox et al. (2005) exemplificam a utilidade de estudos longitudinais na filogenia e revelam mecanismos pelos quais a seleção positiva e a seleção natural moldam a aptidão dos vírus.
+
