@@ -1,6 +1,6 @@
 ---
 title: Tutorial e gameplay comentado
-draft:
+draft: false
 ---
 ## Neste Tutorial você vai
 - [ ] Instalar os softwares necessários com Anaconda
@@ -45,6 +45,6 @@ Na tabela abaixo você encontrará a lista com os softwares mais importantes par
 # Primeiros passos - Anaconda
 
 1. Começe fazendo o dowload da distribuição Anaconda
-2. '''(https://www.anaconda.com/download)'''
-3. , abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando Testarei utilizando a versão xx.xx
+```text [https://www.anaconda.com/download](https://www.anaconda.com/download)
+1. , abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando Testarei utilizando a versão xx.xx
 
