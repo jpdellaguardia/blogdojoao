@@ -45,6 +45,7 @@ Na tabela abaixo você encontrará a lista com os softwares mais importantes par
 # Primeiros passos - Anaconda
 
 1. Começe fazendo o dowload da distribuição Anaconda
+
 ```text [https://www.anaconda.com/download](https://www.anaconda.com/download)
 1. , abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando Testarei utilizando a versão xx.xx
 
