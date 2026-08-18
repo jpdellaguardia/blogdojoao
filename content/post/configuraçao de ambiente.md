@@ -1,6 +1,7 @@
 ---
 title: Tutorial e gameplay comentado
 draft: false
+date: 2026-08-18
 ---
 ## Neste Tutorial você vai
 - [ ] Instalar os softwares necessários com Anaconda
@@ -15,6 +16,7 @@ draft: false
 Nesta publicação vou orientar como você pode configurar o seu ambiênte de desenvolvimento para dar seus primeiros passos no mundo da Bioinformática através da distribuição *Python*.  Aqui, também estará incluso uma breve demonstração de como você pode integrar a linguagem *R* ao *rpy2*, que é outra poderosa ferramenta de desenvolviimento no campo da Bioinformática e Ciências Biológicas em geral.
 
 *Disclaimer 01*. Existem diversas formas que você pode utilizar para performar essas análises, nesta postagem, vou ensinar 2 abordagens diferentes, uma utilizando o *Anaconda Python* (http://docs.continuum.io/anaconda/) e outra utilizando abordagem insntalar o software via *Docker* (Um servidor que permite fazer virtualização que trás uma série de beneficios, principalmente se você pretender compartilhar o seu código) em geral, um notebook simples com no mínimo 4GB de RAM deve ser capaz de reproduzir integralmente este tutorial.
+
 *Disclairme 02.* Se você usa Windows, deixe de usar, fim de tutorial. Brincadeira, considere instalar o Linux na sua maquina, seja por dual boot, ou se você quiser insistir com o Windows, use o Linux através do terminal do WSL2, pois não vou abordar as configurações específicas para o Windows, apesar de que todo o passo a passo seja básicamente o mesmo e você quebrando um pouco a cabeça deve ser capaz de deduzir. Enfatizando, este tutorial será voltado para um âmbiente de desenvolvimento através dos comandos Linux que é o padrão utilizado para análises avançadas. *Sequênciamento de nova Geração (NGS)*, Análise de Dados e Machine Learning são mais performáticos em cluster Linuxs. Para os usuários de MAC, os comandos e os passos são os mesmos.
 
 # Dependências
