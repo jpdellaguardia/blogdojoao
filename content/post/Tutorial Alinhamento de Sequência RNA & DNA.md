@@ -1,5 +1,6 @@
 ---
 title: Tutorial e gameplay comentado
+draft:
 ---
 ## Neste Tutorial você vai
 - [ ] Instalar os softwares necessários com Anaconda
@@ -43,43 +44,7 @@ Na tabela abaixo você encontrará a lista com os softwares mais importantes par
 
 # Primeiros passos - Anaconda
 
-1. Começe fazendo o dowload da distribuição Anaconda'''(https://www.anaconda.com/download)'''
-2. , abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando Testarei utilizando a versão xx.xx
+1. Começe fazendo o dowload da distribuição Anaconda
+2. '''(https://www.anaconda.com/download)'''
+3. , abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando Testarei utilizando a versão xx.xx
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-We will now try to find the
-(
-) gene in Plasmodium falciparum (the parasite that causes
-CRT
-the deadliest form of malaria) on the nucleotide database:
-Copy
-Explain
-handle = Entrez.esearch(db='nucleotide',
-term='CRT[Gene Name] AND "Plasmodium falciparum"
-[Organism]')
-rec_list = Entrez.read(handle)
-if int(rec_list['RetMax']) <
-int(rec_list['Count']):
-handle = Entrez.esearch(db='nucleotide',
-term='CRT[Gene Name] AND "Plasmodium falciparum"
-[Organism]', retmax=rec_list['Count'])
