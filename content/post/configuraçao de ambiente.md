@@ -4,6 +4,8 @@ draft: false
 date: 2026-08-18
 ---
 <img src="/images/configura-ao-de-ambiente-1787097824922.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+
+
 # Neste Tutorial você vai
 
 -  Instalar os softwares necessários com Anaconda
@@ -12,7 +14,6 @@ date: 2026-08-18
 
 #Python #Bioinformatica #DNA #RNA #Sequenciamento
 
-<!--more-->
 # Configuração do Python e Ecosistema de Desenvolvimeto
 
 Nesta publicação vou orientar como você pode configurar o seu ambiênte de desenvolvimento para dar seus primeiros passos no mundo da Bioinformática através da distribuição **Python**.  Aqui, também estará incluso uma breve demonstração de como você pode integrar a linguagem **R** ao **rpy2**, que é outra poderosa ferramenta de desenvolviimento no campo da Bioinformática e Ciências Biológicas em geral.
