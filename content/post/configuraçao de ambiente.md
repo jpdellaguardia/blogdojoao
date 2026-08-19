@@ -3,6 +3,8 @@ title: Tutorial e gameplay comentado
 draft: false
 date: 2026-08-18
 ---
+<img src="/images/configura-ao-de-ambiente-1787097824922.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+<!--more-->
 ## Neste Tutorial você vai
 - [ ] Instalar os softwares necessários com Anaconda
 - [ ] Instalar os softwares necessários com Docker
