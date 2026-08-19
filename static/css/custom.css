@@ -8,3 +8,42 @@ img {
   margin: 1rem auto !important;
   border-radius: 6px !important;
 }
+
+/* --- ESTÉTICA DE TERMINAL PARA BLOCOS DE CÓDIGO --- */
+.highlight {
+  position: relative;
+  background-color: #0d1117 !important; /* Fundo escuro estilo terminal/GitHub Dark */
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  font-family: 'Fira Code', Consolas, Monaco, monospace;
+}
+
+.highlight pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 0;
+}
+
+/* Botão de Copiar (Estilo Obsidian) */
+.copy-code-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #363b42;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0.7;
+}
+
+.copy-code-button:hover {
+  background-color: #30363d;
+  color: #ffffff;
+  opacity: 1;
+}
