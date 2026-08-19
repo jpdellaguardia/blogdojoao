@@ -1,4 +1,4 @@
 {
-  "buildCommand": "hugo --gc --minify -b ${HUGO_BASEURL:-https://blogdojoao-nu.vercel.app/}",
+  "buildCommand": "hugo --gc --minify --buildDrafts --buildFuture -b ${HUGO_BASEURL:-https://blogdojoao-nu.vercel.app/}",
   "outputDirectory": "public"
 }
