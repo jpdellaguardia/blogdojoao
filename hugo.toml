@@ -108,12 +108,12 @@ defaultContentLanguageInSubdir = false
       showOnScrollUp = true
     enableSeparator = false
     [params.navbar.menus]
-      disableAbout = false
-      disableExperience = false
-      disableEducation = false
-      disableProjects = false
-      disableAchievements = false
-      disableContact = false
+      disableAbout = true
+      disableExperience = true
+      disableEducation = true
+      disableProjects = true
+      disableAchievements = true
+      disableContact = true
 
   [params.hero]
     enable = true
@@ -275,43 +275,84 @@ defaultContentLanguageInSubdir = false
     copyright = "Todos os direitos reservados"
     emailText = "Confira este site"
 
-[menu]
-  [[menu.main]]
+[languages.pt.menu]
+  [[languages.pt.menu.main]]
     name = "About Me"
-    url = "/#about"
+    url = "#about"
     weight = 1
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
     name = "Experience"
-    url = "/#experience"
+    url = "#experience"
     weight = 2
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
     name = "Education"
-    url = "/#education"
+    url = "#education"
     weight = 3
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
     name = "Projects"
-    url = "/#projects"
+    url = "#projects"
     weight = 4
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
     name = "Achievements"
-    url = "/#achievements"
+    url = "#achievements"
     weight = 5
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
     name = "Contact"
-    url = "/#contact"
+    url = "#contact"
     weight = 6
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
     name = "Blog"
     url = "/post/"
     weight = 7
 
-  [[menu.main]]
+  [[languages.pt.menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 8
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = "About Me"
+    url = "#about"
+    weight = 1
+
+  [[languages.en.menu.main]]
+    name = "Experience"
+    url = "#experience"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    name = "Education"
+    url = "#education"
+    weight = 3
+
+  [[languages.en.menu.main]]
+    name = "Projects"
+    url = "#projects"
+    weight = 4
+
+  [[languages.en.menu.main]]
+    name = "Achievements"
+    url = "#achievements"
+    weight = 5
+
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 6
+
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 7
+
+  [[languages.en.menu.main]]
     name = "Gallery"
     url = "/gallery/"
     weight = 8
