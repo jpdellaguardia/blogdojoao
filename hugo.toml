@@ -277,41 +277,41 @@ defaultContentLanguageInSubdir = false
 
 [menu]
   [[menu.main]]
-    name = "Início"
-    url = "/"
+    name = "About Me"
+    url = "/#about"
     weight = 1
 
   [[menu.main]]
-    name = "Posts"
-    url = "/post/"
+    name = "Experience"
+    url = "/#experience"
     weight = 2
 
   [[menu.main]]
-    name = "Projetos"
-    url = "/#projects"
+    name = "Education"
+    url = "/#education"
     weight = 3
 
   [[menu.main]]
-    name = "Experiência"
-    url = "/#experience"
+    name = "Projects"
+    url = "/#projects"
     weight = 4
 
   [[menu.main]]
-    name = "Educação"
-    url = "/#education"
+    name = "Achievements"
+    url = "/#achievements"
     weight = 5
 
   [[menu.main]]
-    name = "Contato"
+    name = "Contact"
     url = "/#contact"
     weight = 6
 
   [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
+    name = "Blog"
+    url = "/post/"
     weight = 7
 
   [[menu.main]]
-    name = "Categorias"
-    url = "/categories/"
+    name = "Gallery"
+    url = "/gallery/"
     weight = 8
