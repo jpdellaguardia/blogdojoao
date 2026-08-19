@@ -51,13 +51,11 @@ Na tabela abaixo você encontrará a lista com os softwares mais importantes par
 | scikit-learn   | Machine learning                   | [http://scikit-learn.org](http://scikit-learn.org/)                                    | Machine learning library           |
 | Cython         | Big data                           | [http://cython.org/](http://cython.org/)                                               | High performance                   |
 | Dask           | Big data                           | [http://dask.pydata.org](https://www.google.com/search?q=http://dask.pydata.org)       | Parallel processing                |
+
 <small> Figura 1.1 - Tabela mostrando vários pacotes de software úteis na Bioinformática </small>
 
 # Primeiros passos - Anaconda
 
-1. Começe fazendo o dowload da distribuição Anaconda
-
-text [https://www.anaconda.com/download](https://www.anaconda.com/download)  abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando Testarei utilizando a versão xx.xx
-
-
+1. Começe fazendo o dowload da distribuição Anaconda text [https://www.anaconda.com/download](https://www.anaconda.com/download)  abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando ``` bash Anaconda3-latest-Linux-x86_64.sh``` . Dica rápida, após digitar bash Anaconda3 aperte a tecla **TAB** para dar autocomplete Testarei utilizando a versão xx.xxyr
+2. 
 

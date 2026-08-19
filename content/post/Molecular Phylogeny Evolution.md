@@ -8,7 +8,6 @@ tags:
   - Bioinformatica
 ---
 
-<span class="texto-pequeno">{{SELECTION}}</span>
 ![Type|126x20](https://img.shields.io/badge/Type-Bioinformatica-2ea44f?style=flat-square)
 ![Subject](https://img.shields.io/badge/Subject-Filogenia%20e%20Evolução-8a2be2?style=flat-square)
 <img src="/images/molecular-phylogenyand-evolution-1786991207974.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
@@ -19,7 +18,7 @@ Disclaimer: Esse Blog foi escrito a partir do livro bioinformatcs and functional
 <!--more-->
 # ✅ Checklist 
 - [ ] describe the molecular clock hypothesis and explain its significance; 
-- [ ] define positive and negative selection and test its presence in sequences of interest;
+- [x] define positive and negative selection and test its presence in sequences of interest;
 - [ ] describe the types of phylogenetic trees and their parts (branches, nodes, roots);
 - [ ] create phylogenetic trees using distance-based and character-based methods; and
 - [ ] create phylogenetic trees using distance-based and character-based methods; and
