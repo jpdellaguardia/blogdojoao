@@ -1,0 +1,7 @@
+{
+  "buildCommand": "hugo --gc --minify --buildDrafts --buildFuture -b ${HUGO_BASEURL:-https://blogdojoao-nu.vercel.app/}",
+  "outputDirectory": "public",
+  "env": {
+    "HUGO_VERSION": "0.165.0"
+  }
+}
