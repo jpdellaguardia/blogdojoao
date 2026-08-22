@@ -1,7 +1,7 @@
 baseURL = "/"
 locale = "pt-br"
 title = "Blog do João"
-theme = "github-style"
+theme = "hugo-profile"
 summaryLength = 30
 
 [params]
