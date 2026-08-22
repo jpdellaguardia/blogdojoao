@@ -1,269 +1,45 @@
-baseURL = "https://blogdojoao-nu.vercel.app/"
-languageCode = "en-us"
-title = "João's Blog"
-theme = "hugo-profile"
+baseURL = "/"
+locale = "pt-br"
+title = "Blog do João"
+theme = "github-style"
+summaryLength = 30
+
+[params]
+  image = ""
+  custom_css = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
+  author = "João Pedro Della Guardia"
+  description = "Bioinformata."
+  github = "jpdellaguardia"
+  twitter = "jpguardia_"
+  linkedin = "joaopedrodellaguardia"
+  instagram = "jpguardia_"
+  email = "joaoemberlin@gmail.com"
+  url = "joaoemberlin.com"
+  keywords = "blog, bioinformática"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🧬"
+  favicon = "/images/github-mark.png"
+  avatar = "https://github.com/jpdellaguardia.png"
+  headerIcon = "/images/github-mark-white.png"
+  location = "Berlim, Alemanha"
+  enableGitalk = false
+  enableViewport = true
+[permalinks]
+  post = "/post/:slug/"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "RSS"]
-
-enableRobotsTXT = true
-paginate = 10
-
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-    contentDir = "content"
-    languageCode = "en-us"
-
-  [languages.pt]
-    languageName = "Português"
-    weight = 2
-    contentDir = "content/pt"
-    languageCode = "pt-br"
-
-[languages.en.params.hero]
-  intro = "Hi, I'm"
-  title = "João Pedro Della Guardia"
-  subtitle = "Bioinformatics & Artificial Intelligence"
-  content = "Sharing experiences from Berlin, projects, and science."
-
-[languages.en.params.about]
-  title = "About Me"
-  content = "I'm a bioinformatician and AI enthusiast, currently living in Berlin, Germany. This blog is my space to share learnings about science, technology, and curiosities from daily life in Europe."
-
-[languages.en.params.experience]
-  title = "Experience"
-
-[languages.en.params.education]
-  title = "Education"
-
-[languages.en.params.projects]
-  title = "Projects"
-
-[languages.en.params.achievements]
-  title = "Achievements"
-
-[languages.en.params.contact]
-  title = "Contact"
-
-[params]
-  title = "João's Blog"
-  description = "Articles about Berlin, technology, science, and curiosities"
-  favicon = "/images/github-mark.png"
-  
-  useBootstrapCDN = false
-  animate = true
-
-  [params.theme]
-    defaultTheme = "auto"
-
-  [params.font]
-    fontSize = "1rem"
-    fontWeight = 400
-    lineHeight = 1.5
-
-  [params.navbar]
-    align = "ms-auto"
-    brandName = "João's Blog"
-    disableSearch = false
-    [params.navbar.stickyNavBar]
-      enable = true
-      showOnScrollUp = true
-    enableSeparator = false
-    [params.navbar.menus]
-      disableAbout = true
-      disableExperience = true
-      disableEducation = true
-      disableProjects = true
-      disableAchievements = true
-      disableContact = true
-
-  [params.hero]
-    enable = true
-    image = "/images/avatar.png"
-    [params.hero.bottomImage]
-      enable = false
-    [params.hero.button]
-      enable = true
-      name = "View Posts"
-      url = "/post/"
-      download = false
-      newPage = false
-    [params.hero.socialLinks]
-      [[params.hero.socialLinks.fontAwesomeIcons]]
-        icon = "fab fa-github"
-        url = "https://github.com/jpdellaguardia"
-      [[params.hero.socialLinks.fontAwesomeIcons]]
-        icon = "fab fa-linkedin"
-        url = "https://linkedin.com/in/jpdellaguardia"
-
-  [params.about]
-    enable = true
-    image = "/images/avatar.png"
-    [params.about.skills]
-      enable = true
-      title = "Technologies & Interests"
-      items = ["Bioinformatics", "Python", "Genomics", "Machine Learning", "Hugo", "Linux", "Git", "Docker"]
-
-  [params.experience]
-    enable = true
-    [[params.experience.items]]
-      company = "Freelance / Personal Projects"
-      companyUrl = "https://github.com/jpdellaguardia"
-      [[params.experience.items.jobs]]
-        name = "Bioinformatician & Developer"
-        date = "2022 - Present"
-        content = "Development of genomic analysis pipelines, bioinformatics workflow automation, and creation of tools for biological data analysis."
-        [params.experience.items.jobs.info]
-          content = "Bioinformatics, Genomics, Python, Nextflow, Docker"
-        [params.experience.items.jobs.featuredItems]
-          [[params.experience.items.jobs.featuredItems.fontAwesomeIcons]]
-            icon = "fab fa-github"
-            url = "https://github.com/jpdellaguardia"
-            tooltip = "My GitHub repositories"
-
-  [params.education]
-    enable = true
-    index = true
-    [[params.education.items]]
-      title = "MSc in Bioinformatics"
-      school.name = "Federal University of Rio de Janeiro (UFRJ)"
-      school.url = "https://www.ufrj.br"
-      date = "2020 - 2022"
-      GPA = "9.5/10"
-      content = "Focus on molecular phylogenetics, genomic evolution, and next-generation sequencing data analysis. Thesis on molecular evolution in primates."
-      [params.education.items.featuredLink]
-        enable = true
-        name = "Thesis"
-        url = "https://github.com/jpdellaguardia"
-
-    [[params.education.items]]
-      title = "BSc in Biological Sciences"
-      school.name = "Federal University of Rio de Janeiro (UFRJ)"
-      school.url = "https://www.ufrj.br"
-      date = "2015 - 2019"
-      GPA = "8.7/10"
-      content = "Solid foundation in molecular biology, genetics, biochemistry, and statistics. Scientific initiation in molecular phylogenetics."
-
-  [params.projects]
-    enable = true
-    [[params.projects.items]]
-      title = "João's Blog"
-      content = "Personal blog about bioinformatics, science, and life in Berlin, built with Hugo and hugo-profile theme."
-      image = "/images/projects/blog.jpg"
-      badges = ["Hugo", "Go", "CSS", "Vercel"]
-      [params.projects.items.featured]
-        name = "Visit"
-        link = "https://blogdojoao-nu.vercel.app/"
-      [[params.projects.items.links]]
-        icon = "fab fa-github"
-        url = "https://github.com/jpdellaguardia/blogdojoao"
-
-    [[params.projects.items]]
-      title = "Genomic Analysis Pipeline"
-      content = "Automated pipeline for sequencing data analysis (NGS) using Nextflow and Docker."
-      image = "/images/projects/pipeline.jpg"
-      badges = ["Nextflow", "Docker", "Python", "Bioinformatics"]
-      [[params.projects.items.links]]
-        icon = "fab fa-github"
-        url = "https://github.com/jpdellaguardia"
-
-    [[params.projects.items]]
-      title = "Phylogenetics Tools"
-      content = "Collection of scripts and tools for molecular and evolutionary phylogenetic analysis."
-      image = "/images/projects/phylogeny.jpg"
-      badges = ["Python", "R", "Bioinformatics", "Phylogenetics"]
-      [[params.projects.items.links]]
-        icon = "fab fa-github"
-        url = "https://github.com/jpdellaguardia"
-
-  [params.achievements]
-    enable = false
-
-  [params.contact]
-    enable = true
-    content = "Have a question or want to collaborate? Feel free to get in touch!"
-    btnName = "Send Email"
-    btnLink = "mailto:joaoemberlin@gmail.com"
-
-  [params.footer]
-    [params.footer.recentPosts]
-      path = "post"
-      count = 5
-      title = "Recent Posts"
-      enable = true
-      disableFeaturedImage = false
-    [params.footer.socialNetworks]
-      github = "https://github.com/jpdellaguardia"
-      linkedin = "https://linkedin.com/in/jpdellaguardia"
-      email = "mailto:joaoemberlin@gmail.com"
-
-  [params.listPages]
-    disableFeaturedImage = false
-
-  [params.singlePages]
-    socialShare = true
-    [params.singlePages.readTime]
-      enable = true
-      content = "min read"
-    [params.singlePages.scrollprogress]
-      enable = true
-    [params.singlePages.tags]
-      openInNewTab = true
-
-  [params.datesFormat]
-    article = "Jan 2, 2006"
-    articleList = "Jan 2, 2006"
-    articleRecent = "Jan 2, 2006"
-
-  [params.terms]
-    read = "Read"
-    toc = "Table of Contents"
-    copyright = "All rights reserved"
-    emailText = "Check out this site"
-
-[languages.en.menu]
-  [[languages.en.menu.main]]
-    name = "About Me"
-    url = "#about"
-    weight = 1
-
-  [[languages.en.menu.main]]
-    name = "Experience"
-    url = "#experience"
-    weight = 2
-
-  [[languages.en.menu.main]]
-    name = "Education"
-    url = "#education"
-    weight = 3
-
-  [[languages.en.menu.main]]
-    name = "Projects"
-    url = "#projects"
-    weight = 4
-
-  [[languages.en.menu.main]]
-    name = "Contact"
-    url = "#contact"
-    weight = 5
-
-  [[languages.en.menu.main]]
-    name = "Blog"
-    url = "/post/"
-    weight = 6
-
-  [[languages.en.menu.main]]
-    name = "Gallery"
-    url = "/gallery/"
-    weight = 7
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+  [markup.highlight]
+    codeFences = true
+    noClasses = false
+    style = "github-dark"
