@@ -1,0 +1,3 @@
+
+
+Essa é a minha vista pela janela durante esse verão Europeu, meu bairro fica em uma região bem central em Berlin, perto de comercio, ou seja, não preciso me deslocar muito para ir trabalhar, Divido a minha casa com 4 indianos, é uma experiência muito engraçada, o povo pra gostar de tacar pimenta em tudo<img src="/images/n-o-caia-em-golpes-como-eu-1786892381378.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />

@@ -57,4 +57,5 @@ Na tabela abaixo você encontrará a lista com os softwares mais importantes par
 # Primeiros passos - Anaconda
 
 1. Começe fazendo o dowload da distribuição Anaconda text [https://www.anaconda.com/download](https://www.anaconda.com/download)  abra o terminal na pasta onde o instalador (.sh) foi baixado, execute o comando ``` bash Anaconda3-latest-Linux-x86_64.sh``` . Dica rápida, após digitar bash Anaconda3 aperte a tecla **TAB** para dar autocomplete Testarei utilizando a versão xx.xxyr
-2. Ativando o **Conda** no terminal, se ao digital conda e o terminal retornar que não foi encontrado, é necessário inicializar as variáveis de ambiente no seu shell: Carrega o executável temporariamente source ~/anaconda3/bin/activate # 2. Registra o Conda de forma permanente no Bash conda init bash # 3. Recarrega as configurações do terminal source ~/.bashrc
+2. 
+
