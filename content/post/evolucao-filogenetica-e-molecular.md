@@ -7,6 +7,7 @@ type: "Curiosidade"
 subject: "Evolução filogenética e molecular"
 categories: ["Biomol", "Filogenia", "Evolução", "Bioinformática"]
 ---
+<img src="/images/evolucao-filogenetica-e-molecular-1787428764387.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 
 > *“Nothing in biology makes sense except in the light of evolution.”*  
 > — Theodosius Dobzhansky, 1973
@@ -55,16 +56,14 @@ Ferramentas como o **BLAST** podem ser utilizadas para identificar sequências s
 As globinas estão entre as famílias de proteínas mais importantes para o desenvolvimento da biologia molecular evolutiva. A hemoglobina começou a ser investigada no século XIX, seguida pela mioglobina e, posteriormente, pela determinação de suas estruturas e sequências.
 
 Trabalhos pioneiros de Ingram (1961) e de outros pesquisadores contribuíram para a determinação das sequências de proteínas globinas. Posteriormente, Eck e Dayhoff (1966) utilizaram métodos de análise filogenética, incluindo a **parcimônia**, para investigar as relações evolutivas entre diferentes globinas.
-
-<img src="/images/fig-7-1.png" alt="Relações filogenéticas entre globinas" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+<img src="/images/evolucao-filogenetica-e-molecular-1787429342152.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
+![Relações filogenéticas entre globinas]
 
 **Figura 1 —** Relações filogenéticas entre globinas. A árvore foi adaptada de Dayhoff et al. (1972), que utilizaram máxima parcimônia para inferir as relações entre 13 globinas. As diferenças observadas entre as sequências foram corrigidas utilizando dados das matrizes PAM. A seta 1 indica o nó correspondente ao último ancestral comum das globinas de vertebrados, enquanto a seta 2 indica o ancestral comum das globinas de insetos e vertebrados.  
 **Fonte:** Adaptado de Dayhoff et al. (1972).
 
 As análises das globinas permitiram reconstruir uma sequência de eventos envolvendo **duplicações gênicas** e **eventos de especiação**, oferecendo uma das primeiras demonstrações de como sequências proteicas poderiam ser utilizadas para investigar a história evolutiva.
-
-<img src="/images/fig-7-2.png" alt="Relações evolutivas entre subfamílias de globinas" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
-
+<img src="/images/evolucao-filogenetica-e-molecular-1787429377615.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 **Figura 2 —** Relações entre subfamílias de globinas no contexto do tempo evolutivo. As datas dos eventos de especiação foram estimadas com base em evidências paleontológicas.  
 **Fonte:** Adaptado de Dayhoff et al. (1972). Reproduzido com permissão da National Biomedical Research Foundation.
 
@@ -87,9 +86,7 @@ Ao comparar as globinas humanas com as de gorilas, foram identificadas apenas du
 Um estudo fundamental sobre a existência do relógio molecular foi realizado por **Richard Dickerson em 1971**. O pesquisador analisou três proteínas para as quais havia grande quantidade de dados de sequência disponíveis: **citocromos *c*, hemoglobinas e fibrinopeptídeos**.
 
 Para cada proteína, Dickerson relacionou o número de diferenças de aminoácidos entre dois organismos ao tempo de divergência evolutiva estimado a partir de evidências paleontológicas.
-
-<img src="/images/fig-7-5.png" alt="Relação entre substituições de aminoácidos e tempo de divergência" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
-
+<img src="/images/evolucao-filogenetica-e-molecular-1787429474060.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
 **Figura 3 —** Relação entre o número de alterações de aminoácidos e o tempo decorrido desde a divergência entre espécies. Diferentes famílias de proteínas apresentam diferentes taxas de evolução molecular. Citocromo *c* apresenta evolução relativamente lenta, hemoglobina apresenta taxa intermediária e fibrinopeptídeos apresentam uma taxa de substituição mais elevada.  
 **Fonte:** Adaptado de Dickerson (1971).
 
@@ -159,10 +156,7 @@ Uma mutação pode ser:
 Isso ajuda a explicar por que algumas proteínas, como **histonas e ubiquitina**, apresentam taxas de substituição extremamente baixas. Alterações nessas proteínas podem ser fortemente prejudiciais porque suas funções são altamente conservadas.
 
 Portanto, dizer que uma proteína “evolui lentamente” não significa necessariamente que ela sofre poucas mutações. Significa que poucas das alterações que surgem são toleradas e permanecem como substituições observáveis ao longo da evolução.
-
-<img src="/images/table-7-1.png" alt="Taxas de substituição de aminoácidos" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />
-
-**Tabela 1 —** Taxas de substituição de aminoácidos por sítio em diferentes proteínas. As taxas são expressas como $\lambda \times 10^9$ substituições por sítio por ano. Dayhoff (1978) também expressou essas taxas em unidades PAM, correspondentes ao número de mutações pontuais aceitas por 100 resíduos de aminoácidos durante 100 milhões de anos de evolução.  
+<img src="/images/evolucao-filogenetica-e-molecular-1787429508859.webp" style="max-width: 100% !important; height: auto !important; max-height: 450px !important; object-fit: contain !important; display: block !important; margin: 1rem auto !important; border-radius: 6px !important;" />**Tabela 1 —** Taxas de substituição de aminoácidos por sítio em diferentes proteínas. As taxas são expressas como $\lambda \times 10^9$ substituições por sítio por ano. Dayhoff (1978) também expressou essas taxas em unidades PAM, correspondentes ao número de mutações pontuais aceitas por 100 resíduos de aminoácidos durante 100 milhões de anos de evolução.  
 **Fonte:** Adaptado de Dayhoff (1978).
 
 ## 8. Limitações da hipótese do relógio molecular
