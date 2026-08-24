@@ -1,0 +1,208 @@
+baseURL: "http://localhost:1313/"
+theme: "hugo-profile"
+defaultContentLanguage: "en"
+
+# Global Parameters & Navigation
+params:
+  favicon: "/images/favicon.ico"
+  navbar:
+    align: "ms-auto"
+    brandLogo: ""
+    brandName: "João Della Guardia"
+    enableSearch: true
+    menus:
+      about: true
+      experience: false
+      education: true
+      projects: true
+      skills: true
+      achievements: false
+      contact: true
+
+  # Social Media Links
+  social:
+    github: "https://github.com/your-username"
+    linkedin: "https://linkedin.com/in/your-username"
+    email: "mailto:your-email@example.com"
+
+# Multilingual Setup
+languages:
+  en:
+    label: "English"
+    languageCode: "en-us"
+    weight: 1
+    title: "João Della Guardia"
+    params:
+      title: "João Della Guardia"
+      description: "Biomedicine, Artificial Intelligence & Data Science"
+
+      # Hero Section
+      hero:
+        enable: true
+        intro: "Hi, my name is"
+        title: "João Della Guardia"
+        subtitle: "Biomedical Scientist | Data Science & Artificial Intelligence"
+        content: "Bridging the gap between biological sciences, computational workflows, and machine learning. Focused on data analysis, bioinformatics pipelines, and software engineering."
+        image: "/images/hero.svg"
+        button:
+          enable: true
+          name: "Explore Posts"
+          url: "/blogs/"
+
+      # About Section
+      about:
+        enable: true
+        title: "About Me"
+        content: "Biomedical scientist transitioning into Data Science and Artificial Intelligence. Experienced in data analytics, bioinformatics pipelines, web development, and Linux environments. Passionate about leveraging computing to solve complex biological and analytical problems."
+
+      # Skills Section
+      skills:
+        enable: true
+        title: "Skills & Tech Stack"
+        items:
+          - title: "Data & AI"
+            skills: ["Python", "Pandas", "SQL (PostgreSQL/MySQL)", "Machine Learning", "Apache Airflow"]
+          - title: "Bioinformatics"
+            skills: ["Genomics", "Nextflow", "GATK", "BLAST", "Biopython"]
+          - title: "Development & DevOps"
+            skills: ["JavaScript/TypeScript", "React / Next.js", "Docker", "Linux (Debian/Ubuntu)", "Git"]
+
+      # Education Section
+      education:
+        enable: true
+        title: "Education"
+        items:
+          - title: "B.S. in Artificial Intelligence & Postgraduate in Data Science"
+            school:
+              name: "Universidade de Fortaleza (UNIFOR)"
+              url: "https://unifor.br"
+            date: "In progress"
+            content: "Focusing on machine learning architectures, statistical modeling, and large-scale data engineering."
+          - title: "Python for Data Analytics Specialization"
+            school:
+              name: "Digital College"
+              url: "#"
+            date: "Completed"
+            content: "Advanced data manipulation, exploratory data analysis, and automated workflows in Python."
+          - title: "Bachelor's Degree in Biomedicine"
+            school:
+              name: "Universidade Christus (Unichristus)"
+              url: "#"
+            date: "Graduated"
+            content: "Foundational training in molecular biology, clinical analysis, genetics, and diagnostic sciences."
+
+      # Projects Section
+      projects:
+        enable: true
+        title: "Featured Projects"
+        items:
+          - title: "Genomic Analysis Pipeline"
+            content: "End-to-end variant calling and sequence alignment workflow engineered with Nextflow and Biopython."
+            image: "/images/achievement.jpg"
+            badges: ["Nextflow", "Python", "Bioinformatics"]
+            links:
+              - icon: "fab fa-github"
+                url: "https://github.com"
+          - title: "Automated Trading Bot"
+            content: "Quantitative financial data engine and automated execution system integrated with the Binance API."
+            image: "/images/achievement.jpg"
+            badges: ["Python", "Pandas", "Binance API"]
+            links:
+              - icon: "fab fa-github"
+                url: "https://github.com"
+
+      # Recent Posts Section
+      recentPosts:
+        enable: true
+        title: "Recent Posts"
+        count: 3
+
+  pt:
+    label: "Português"
+    languageCode: "pt-br"
+    weight: 2
+    title: "João Della Guardia"
+    params:
+      title: "João Della Guardia"
+      description: "Biomedicina, Inteligência Artificial & Ciência de Dados"
+
+      # Hero Section (PT)
+      hero:
+        enable: true
+        intro: "Olá, meu nome é"
+        title: "João Della Guardia"
+        subtitle: "Biomédico | Ciência de Dados & Inteligência Artificial"
+        content: "Unindo biologia, computação e inteligência artificial. Foco em análise de dados, pipelines de bioinformática e arquitetura de sistemas."
+        image: "/images/hero.svg"
+        button:
+          enable: true
+          name: "Ver Artigos"
+          url: "/pt/blogs/"
+
+      # About Section (PT)
+      about:
+        enable: true
+        title: "Sobre Mim"
+        content: "Biomédico em transição para Ciência de Dados e Inteligência Artificial. Experiência com análise de dados, pipelines de bioinformática, desenvolvimento web e sistemas Linux. Foco em resolver problemas analíticos e biológicos complexos."
+
+      # Skills Section (PT)
+      skills:
+        enable: true
+        title: "Habilidades & Tecnologias"
+        items:
+          - title: "Dados & IA"
+            skills: ["Python", "Pandas", "SQL (PostgreSQL/MySQL)", "Machine Learning", "Apache Airflow"]
+          - title: "Bioinformática"
+            skills: ["Genômica", "Nextflow", "GATK", "BLAST", "Biopython"]
+          - title: "Desenvolvimento & DevOps"
+            skills: ["JavaScript/TypeScript", "React / Next.js", "Docker", "Linux (Debian/Ubuntu)", "Git"]
+
+      # Education Section (PT)
+      education:
+        enable: true
+        title: "Formação Acadêmica"
+        items:
+          - title: "Graduação em IA & Pós-Graduação em Ciência de Dados"
+            school:
+              name: "Universidade de Fortaleza (UNIFOR)"
+              url: "https://unifor.br"
+            date: "Em andamento"
+            content: "Modelos de aprendizado de máquina, inferência estatística e processamento de dados."
+          - title: "Especialização em Python para Análise de Dados"
+            school:
+              name: "Digital College"
+              url: "#"
+            date: "Concluído"
+            content: "Manipulação, análise exploratória e modelagem de dados com Python."
+          - title: "Bacharelado em Biomedicina"
+            school:
+              name: "Universidade Christus (Unichristus)"
+              url: "#"
+            date: "Concluído"
+            content: "Biologia molecular, genética e análises clínicas."
+
+      # Projects Section (PT)
+      projects:
+        enable: true
+        title: "Projetos"
+        items:
+          - title: "Pipeline de Análise Genômica"
+            content: "Automação de anotação de variantes e alinhamento de sequências utilizando Nextflow e Biopython."
+            image: "/images/achievement.jpg"
+            badges: ["Nextflow", "Python", "Bioinformática"]
+            links:
+              - icon: "fab fa-github"
+                url: "https://github.com"
+          - title: "Robô de Trading Automatizado"
+            content: "Sistema de análise de séries financeiras e execução integrada à API da Binance."
+            image: "/images/achievement.jpg"
+            badges: ["Python", "Pandas", "Binance API"]
+            links:
+              - icon: "fab fa-github"
+                url: "https://github.com"
+
+      # Recent Posts Section (PT)
+      recentPosts:
+        enable: true
+        title: "Artigos Recentes"
+        count: 3
